@@ -75,9 +75,10 @@ CREATE TABLE IF NOT EXISTS `consulta` (
 -- Tabela de banhos / Tosas
 CREATE TABLE IF NOT EXISTS `atendimento` (
   `idatendimento` int(11) NOT NULL AUTO_INCREMENT,
+   `data` datetime DEFAULT NULL,
+  `hora` varchar(5) DEFAULT NULL,
   `idfuncionario` int(11) DEFAULT NULL,
   `idanimal` int(11) DEFAULT NULL,
-  `data` datetime DEFAULT NULL,
   `idstatus` int(11) DEFAULT 0,
   `data_registro` datetime DEFAULT NULL,
   `observacoes` varchar(50) DEFAULT NULL,
