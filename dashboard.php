@@ -2,13 +2,13 @@
 <?php require_once("clienteController.php")?>
 <?php require_once("consultaController.php")?>
 <?php require_once("petController.php")?>
-<?php require_once("veterinarioController.php")?>
+<?php require_once("impressoraController.php")?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>3D Printer</title>
 </head>
 <body>
     <div class="testee">
@@ -28,7 +28,7 @@
                         <i class="fa fa-user"></i>
                     </div>
                     <div class="card-text">
-                        <span><span class="card-number"><?php echo getQuantidadeConsultasByStatus(1);?></span> consultas agendadas</span>
+                        <span><span class="card-number"><?php echo getQuantidadeConsultasByStatus(1);?></span> pedidos agendados</span>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@
                         <i class="fa fa-user"></i>
                     </div>
                     <div class="card-text">
-                        <span><span class="card-number"><?php echo getQuantidadeConsultasByStatus(1);?></span> atendimentos agendados</span>
+                        <span><span class="card-number"><?php echo getQuantidadeConsultasByStatus(1);?></span> pedidos atendidos</span>
                     </div>
                 </div>
         </div>
@@ -47,15 +47,24 @@
                         <i class="fa fa-user"></i>
                     </div>
                     <div class="card-text">
-                        <span><span class="card-number"><?php echo getQuantidadeVeterinarios();?></span> veterinários cadastrados</span>
+                        <span><span class="card-number"><?php echo getQuantidadeImpressoras();?></span> Impressoras cadastradas</span>
                     </div>
                 </div>
+                <div class="dashboard-card shadow">
+                    <div class="card-icon yellow">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="card-text">
+                        <span><span class="card-number"><?php echo getQuantidadeVeterinarios();?></span> funcionários cadastrados</span>
+                    </div>
+                </div>
+
                 <div class="dashboard-card shadow">
                     <div class="card-icon green">
                         <i class="fa fa-user"></i>
                     </div>
                     <div class="card-text">
-                        <span><span class="card-number"><?php echo getQuantidadePets();?></span> pets cadastrados</span>
+                        <span><span class="card-number"><?php echo getQuantidadePets();?></span> Estoque de rolos</span>
                     </div>
                 </div>
             </div>            

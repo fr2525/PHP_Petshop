@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $user = "root";
-$password = "oyster01";
-$db = "petshop";
+$password = "";
+$db = "bd3d";
 
 $connect = new mysqli($host, $user, $password, $db); 
 global $connect;

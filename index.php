@@ -13,7 +13,7 @@ session_start();
     <div class="bg">
         <div class="login-box">
             <div class="login-head">
-                <h1>Pet Shop</h1>
+                <h1>3D Printer</h1>
             </div>
             <?php if(isset($_SESSION['naoAutenticado'])): ?>
             <div class="erro-login">

@@ -25,24 +25,31 @@
         <div class="list">
             <div class="teste">
                 <div class="item">
-                    <a href="consultas.php">Consultas</a>
+                    <a href="consultas.php">Pedidos</a>
                 </div>
                 <div class="item">
                     <a href="clientes.php">Clientes</a>
                 </div>
                 <div class="item">
-                    <a href="veterinarios.php">Veterinários</a>
+                    <a href="veterinarios.php">Impressoras</a>
                 </div>
                 <div class="item">
-                    <a href="pets.php">Pets</a>
+                    <a href="veterinarios.php">Filamentos</a>
                 </div>
+                <div class="item">
+                    <a href="pets.php">Fornecedores</a>
+                </div>
+                <div class="item">
+                    <a href="veterinarios.php">Usuarios</a>
+                </div>
+
             </div>       
         </div>     
     </div>
     <div class="aside" >
         <a href="index.php">
             <div class="aside-row first">
-                <h1>Pet Shop</h1>
+                <h1>3D Printer</h1>
             </div>
         </a>
         <a href="dashboard.php">
@@ -61,7 +68,7 @@
                     <i class="fa fa-calendar"></i>
                 </div>
                 <div class="aside-title">
-                    Consultas
+                    Pedidos
                 </div>
             </div>
         </a>
@@ -78,10 +85,10 @@
         <a href="veterinarios.php">
             <div class="aside-row">
                 <div class="aside-icon">
-                    <i class="fa fa-user-md"></i>
+                    <i class="fa fa-print"></i>
                 </div>
                 <div class="aside-title">
-                    Veterinários
+                    Impressoras
                 </div>
             </div>
         </a>
@@ -91,10 +98,31 @@
                     <i class="fa fa-paw"></i>
                 </div>
                 <div class="aside-title">
-                    Pets
+                    Filamentos
                 </div>
             </div>
         </a>
+        <a href="pets.php">
+            <div class="aside-row">
+                <div class="aside-icon">
+                    <i class="fa fa-address-card"></i>
+                </div>
+                <div class="aside-title">
+                    Fornecedores
+                </div>
+            </div>
+        </a>
+        <a href="pets.php">
+            <div class="aside-row">
+                <div class="aside-icon">
+                    <i class="fa fa-check-square"></i>
+                </div>
+                <div class="aside-title">
+                    Usuários
+                </div>
+            </div>
+        </a>
+
         
         <a href="login/logout.php">
             <div class="aside-row last">

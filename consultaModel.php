@@ -30,7 +30,7 @@ function getConsultas() {
 
 function getConsultasByStatus($status) {
     global $connect;
-    $query = "SELECT idconsulta FROM consulta WHERE idstatus = '$status'";
+    $query = "SELECT idpedido FROM pedidos WHERE status = '$status'";
     $result = mysqli_query($connect, $query);
     return $result;
 }
